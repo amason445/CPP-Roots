@@ -30,7 +30,7 @@ double* rootDifference(float x) {
 		rootj = pow(x, (1 / j));
 		if (pow(rootj, j) == x && rootj < x) {
 			powerL = j;
-			largest = (int)ceil(rootj);
+			largest = rootj;
 			break;
 		}
 	}
